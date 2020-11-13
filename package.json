@@ -1,0 +1,26 @@
+{
+  "name": "proxz",
+  "version": "1.0.0",
+  "description": "Proxify your es5 applications.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-a-n-a/proxz.git"
+  },
+  "keywords": [
+    "es6",
+    "proxy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h-a-n-a/proxz/issues"
+  },
+  "homepage": "https://github.com/h-a-n-a/proxz#readme",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
