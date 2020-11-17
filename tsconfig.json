@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "module": "ES6",
-    "target": "ES5",
-    "outDir": "lib"
+    "module": "es6",
+    "target": "es5",
+    "outDir": "lib",
+    "lib": ["dom", "es6"]
   },
   "include": ["./index.ts"]
 }

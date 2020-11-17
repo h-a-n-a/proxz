@@ -4,7 +4,8 @@
   "description": "Proxify your es5 applications.",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "ts-node ./index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/h-a-n-a/proxz#readme",
   "devDependencies": {
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.5"
   }
 }
